@@ -1,0 +1,140 @@
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #131010;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  nav a:hover {
+    color: #f00;
+    background-color: #f2f2f2;
+  }
+  
+ 
+  main {
+    padding: 20px;
+  }
+  
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+  }
+ 
+  .collage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #333;
+  }
+  
+  .image {
+    flex: 0 0 31%;
+    margin-bottom: 20px;
+  }
+  
+  .image img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .description {
+    padding: 10px;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  .collage2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #333;
+  }
+  
+  .img1 {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .img1 img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+  }
+  
+  .img1 p {
+    margin-top: 10px;
+  }
+  .animated-text {
+    animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+.in1{
+  background-color: black;
+  
+}  
+.btn{
+  background-color: #f00; width: 70px;
+  color: aqua;
+  border-radius: 40%;
+
+}
+.btn :hover{
+  background-color: aqua;
+  color: aqua;
+}
+.other{
+  background-color: #333;
+}
